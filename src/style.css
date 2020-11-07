@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(112, 172, 207);;
+    justify-content: space-between;
+    padding: 10px;
+}
+.column {
+    width: 33%;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+    border-radius: 5px;
+}
+.task {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-block-end: 5px;
+    position: relative;
+    /* width: 90%; */
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.deletecard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    height: 20px;
+}
